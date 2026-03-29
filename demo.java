@@ -9,6 +9,7 @@ public class demo {
     double r = sc.nextDouble();
     double area = Math.PI * r * r;
     System.out.println("The area of the circle is: " + area);
+    System.out.println("hello world");
     sc.close();
  }
 }

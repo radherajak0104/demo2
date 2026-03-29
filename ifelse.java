@@ -11,6 +11,8 @@ public class ifelse {
             System.out.println("a is greater than b");
         } else {
             System.out.println("a is not greater than b");
+        
         }
+        scanner.close();
     }
 }
