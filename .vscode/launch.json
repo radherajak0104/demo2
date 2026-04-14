@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "oddeven",
+            "request": "launch",
+            "mainClass": "ifelse.oddeven",
+            "projectName": "DsaJava_6ff0111c"
+        },
+        {
+            "type": "java",
+            "name": "Run Any Java Class",
+            "request": "launch",
+            "mainClass": "${input:mainClassName}",
+            "args": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "mainClassName",
+            "type": "promptString",
+            "description": "Enter full class name (with package)",
+            "default": "ifelse.oddeven"
+        }
+    ]
+}
